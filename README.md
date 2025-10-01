@@ -10,7 +10,7 @@ Retention Analysis: Which customers haven't purchased recently?
 - Assigned customers to High, Mid, and Low-value segments
 - Calculated key metrics: total revenue
 
-🖥️ Query: 1_customer_segmentation.sql
+🖥️ Query: [1_customer_segmentation.sql](sql_queries/1_customer_segmentation.sql)
 
 **📈 Visualization:**
 
@@ -34,7 +34,7 @@ Retention Analysis: Which customers haven't purchased recently?
 Tracked revenue and customer count per cohorts
 Cohorts were grouped by year of first purchase
 Analyzed customer retention at a cohort level
-🖥️ Query: 2_cohort_analysis.sql
+🖥️ Query: [2_cohort_analysis.sql](sql_queries/2_cohort_analysis.sql)
 
 **📈 Visualization:**
 
@@ -53,7 +53,7 @@ Analyzed customer retention at a cohort level
 * With both lowering LTV and decreasing customer acquisition, the company is facing a potential revenue decline.
 
 ### 3. Customer Retention
-🖥️ Query: 3_retention_analysis.sql
+🖥️ Query: [3_retention_analysis.sql](sql_queries/3_retention_analysis.sql)
 
 * Identified customers at risk of churning
 * Analyzed last purchase patterns
@@ -92,6 +92,17 @@ Analyzed customer retention at a cohort level
 * Strengthen first 1-2 year engagement with onboarding incentives and loyalty rewards
 * Focus on targeted win-back campaigns for high-value churned customers
 * Implement proactive intervention system for at-risk customers before they lapse
+
+## 🚀 Interactive Analysis Online
+You can explore the sales data and run the SQL analysis yourself directly in your browser using Google Colab. This notebook contains all the steps for data exploration and analysis.
+
+Click the badge below to get started:
+
+How it works:
+The "Open in Colab" badge will launch the .ipynb file directly from this GitHub repository into a Google Colab environment, allowing you to run the code interactively without any local setup.
+
+You can also view the notebook file directly within GitHub: View [Online_Sales_Data_Exploration_SQL.ipynb](Sales_Data_Exploration_SQL.ipynb)
+This structure clearly lists your tools and provides a very professional and user-friendly way for others to engage with your analysis.
 
 ## Technical Details
 Database: PostgreSQL
