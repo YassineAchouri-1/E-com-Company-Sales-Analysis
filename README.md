@@ -105,6 +105,10 @@ You can also view the notebook file directly within GitHub: View [Online_Sales_D
 This structure clearly lists your tools and provides a very professional and user-friendly way for others to engage with your analysis.
 
 ## Technical Details
-Database: PostgreSQL
-Analysis Tools: PostgreSQL, DBeaver, PGadmin
-Visualization: Power BI
+This project was created using the following tools:
+
+* Database: PostgreSQL
+* Analysis Tools: PostgreSQL, DBeaver, PGAdmin
+* Data Visualization: Power BI
+* Interactive Notebook: Google Colab
+
