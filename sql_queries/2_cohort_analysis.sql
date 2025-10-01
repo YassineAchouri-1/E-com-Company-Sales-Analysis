@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:17d56bf2bb7e94c91bf48c5498288801bfacc99b9e64f98070ce7cb43787d7d4
-size 282
+SELECT
+    cohort_year,
+    SUM(total_net_revenue) AS total_revenue,
+    COUNT(DISTINCT customerkey) AS total_customers,
+    SUM(total_net_revenue) / COUNT(DISTINCT customerkey) AS customer_revenue
+FROM cohort_analysis
+WHERE orderdate = first_purchase_date
+GROUP BY 
+    cohort_year
